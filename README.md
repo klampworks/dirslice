@@ -24,4 +24,4 @@ If test_dir has 550 files then the following command would create three subdirec
 design
 ======
 
-Dirslice uses dirent to enumerates all files inside the target directory into a linked list and then iterates through it until the required number of files have been moved or the end of the list is reached. This may cause problems on servilely memory constricted systems with several million files inside the target directory. Files are inserted into the list in order of modification date and are therefore grouped into subdirectories in order of modification date too.
+Dirslice uses dirent to enumerate all files inside the target directory into a linked list and then iterates through it until the required number of files have been moved or the end of the list is reached. This may cause problems on servilely memory constricted systems with several million files inside the target directory. Files are inserted into the list in order of modification date and are therefore grouped into subdirectories in order of modification date too.
