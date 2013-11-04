@@ -8,8 +8,8 @@ usage
 =====
 
 Usage dirslice &lt;num&gt; &lt;seg&gt; &lt;directory&gt;
-	&lt;num&gt; = Number of slices to create, 0 = as many as possible
-	&lt;seg&gt; = The size of each slice
+&lt;num&gt; = Number of slices to create, 0 = as many as possible
+&lt;seg&gt; = The size of each slice
 
 If test_dir has 550 files then the following command would create two subdirectories inside test_dir and move 200 files into each one, leaving 150 in test_dir.
 
